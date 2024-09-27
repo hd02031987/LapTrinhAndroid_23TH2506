@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "thuchanh.bai01.ungdung1"
+    namespace = "thuchanh.bai01.lamquenandroid"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "thuchanh.bai01.ungdung1"
+        applicationId = "thuchanh.bai01.lamquenandroid"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -37,8 +37,6 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation(libs.play.services.maps)
-    implementation(libs.play.services.ads)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
